@@ -1,0 +1,27 @@
+.grid {
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr); 
+    grid-template-rows: repeat(10, 1fr);
+    background-color: pink;
+
+}
+
+.space {
+    background-color: lightpink; 
+    color: darkmagenta;
+    border-style: solid; 
+    border-width:thin;
+    border-color: hotpink;
+    height: 4vh; 
+   
+}
+.space-occupied {
+    background-color:chartreuse;
+}
+#space-character {
+    background-color: deeppink; 
+}
+.scoreboard {
+    display: flex; 
+    justify-content: space-around;
+}
